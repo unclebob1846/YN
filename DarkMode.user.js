@@ -4,7 +4,7 @@
 // @version 0.6.3
 // @match *://younow.com/*
 // @match *://www.younow.com/*
-// @namespace https://github.com/FluffyFishGames/JuhNau-Darkmode
+// @namespace https://github.com/unclebob1846/YN
 // @grant    GM_getValue
 // @grant    GM_setValue
 // @updateURL https://FluffyFishGames.github.io/DarkMode.user.js
