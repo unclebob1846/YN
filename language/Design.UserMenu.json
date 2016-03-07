@@ -1,0 +1,10 @@
+{
+	"de-DE":
+	{
+		"profile": "Profil",
+		"settings": "Einstellungen",
+		"inviteFriends": "Freunde einladen",
+		"logout": "Ausloggen",
+		"userProgress": "Fortschritt: %1% bis Level %2"
+	}
+}

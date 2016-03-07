@@ -1,0 +1,159 @@
+{
+	"likeObject": {
+		"url": "$BASE/php/api/post/like",
+		"method": "POST",
+		"requestBy": true,
+		"addIdentification": true,
+		"pusherSocket": true,
+		"data": {
+			"userId": "$USERID",
+			"channelId": "%channelID",
+			"id": "%objectID",
+			"isComment": "%isComment"
+		}
+	},
+	"unlikeObject": {
+		"url": "$BASE/php/api/post/unlike",
+		"method": "POST",
+		"requestBy": true,
+		"addIdentification": true,
+		"pusherSocket": true,
+		"data": {
+			"userId": "$USERID",
+			"channelId": "%channelID",
+			"id": "%objectID",
+			"isComment": "%isComment"
+		}
+	},
+	"fan": {
+		"url": "$BASE/php/api/channel/fan",
+		"method": "POST",
+		"requestBy": true,
+		"addIdentification": true,
+		"data": {
+			"userId": "$USERID",
+			"channelId": "%channelID"
+		}
+	},
+	"unfan": {
+		"url": "$BASE/php/api/channel/unFan",
+		"method": "POST",
+		"requestBy": true,
+		"addIdentification": true,
+		"data": {
+			"userId": "$USERID",
+			"channelId": "%channelID"
+		}
+	},
+	"sendChatMessage": {
+		"url": "https://www.younow.com/php/api/broadcast/chat",
+		"requestBy": true,
+		"method": "POST",
+		"addIdentification": true,
+		"data": {
+			"userId": "$USERID",
+			"channelId": "%channelID",
+			"comment": "%message"
+		}
+	},
+	"sendGift": {
+		"url": "https://www.younow.com/php/api/broadcast/gift",
+		"requestBy": true,
+		"method": "POST",
+		"addIdentification": true,
+		"data": {
+			"userId": "$USERID",
+			"channelId": "%channelID",
+			"giftId": "%giftID",
+			"quantity": "%quantity"
+		}
+	},
+	"getTrending": {
+		"url": "https://cdn2.younow.com/php/api/younow/dashboard/locale=en/trending=%count"
+	},
+	"getViewers": {
+		"url": "$CDNBASE/php/api/broadcast/audience/channelId=%channelID/numOfRecords=%count/start=%start"
+	},
+	"getPlayData": {
+		"url": "%playDataURL%userID.json",
+		"dataType": "json"
+	},
+	"likeBroadcast": {
+		"url": "$BASE/php/api/broadcast/like",
+		"addIdentification": true,
+		"requestBy": true,
+		"method": "POST",
+		"data": {
+			"channelId": "%channelID",
+			"userId": "$USERID"
+		}
+	},
+	"getVideoPath": {
+		"url": "https://cdn2.younow.com/php/api/broadcast/videoPath/broadcastId=%broadcastID"
+	},
+	"searchPeople": {
+		"url": "https://qz0xcgubgq.algolia.io/1/indexes/$PEOPLESEARCHINDEX/query",
+		"addAlgolia": true,
+		"method": "POST",
+		"data": "{\"params\":\"query=%query&hitsPerPage=%perPage&page=%page&attributesToHighlight=none\"}"
+	},
+	"searchTag": {
+		"url": "https://qz0xcgubgq.algolia.io/1/indexes/$PEOPLESEARCHINDEX/query",
+		"addAlgolia": true,
+		"method": "POST",
+		"data": "{\"params\":\"query=%query&hitsPerPage=%perPage&page=%page&attributesToHighlight=none&restrictSearchableAttributes=tag\"}"
+	},
+	"trendingUsers": {
+		"url": "$CDNBASE/php/api/younow/trendingUsers/numberOfRecords=%count/startFrom=%startFrom/locale=en"
+	},
+	"getFriends": {
+		"url": "$BASE/php/api/channel/getLocationOnlineFansOf/numberOfRecords=50/channelId=$USERID"
+	},
+	"getProfile": {
+		"url": "$CDNBASE/php/api/channel/getInfo/channelId=%channelID"
+	},
+	"isFan": {
+		"url": "$BASE/php/api/channel/isFanOf/userId=$USERID/channelIds=%userID"
+	},
+	"getBroadcast": {
+		"url": "$BASE/php/api/broadcast/info/curId=0/user=%username"
+	},
+	"getFansOf": {
+		"url": "$BASE/php/api/channel/getFansOf/channelId=%channelID/startFrom=%startFrom"
+	},
+	"getFans": {
+		"url": "$BASE/php/api/channel/getFans/channelId=%channelID/startFrom=%startFrom"
+	},
+	"getPreviousBroadcasts": {
+		"url": "$BASE/php/api/post/getBroadcasts/channelId=%channelID/startFrom=%startFrom/userId=$USERID"
+	},
+	"getPosts": {
+		"url": "$BASE/php/api/post/get/channelId=%channelID/startFrom=%startFrom/userId=$USERID"
+	},
+	"deletePost": {
+		"url": "$BASE/php/api/post/delete",
+		"addIdentification": true,
+		"requestBy": true,
+		"method": "POST",
+		"data": {
+			"isComment": "%isComment",
+			"channelId": "%channelID",
+			"userId": "$USERID",
+			"id": "%postID"
+		}
+	},
+	"createPost": {
+		"url": "$BASE/php/api/post/create",
+		"addIdentification": true,
+		"requestBy": true,
+		"method": "POST",
+		"multipart": true,
+		"data": {
+			"doEnrich": "1",
+			"userId": "$USERID",
+			"channelId": "%channelID",
+			"parentId": "%parentID",
+			"post": "%post"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"de-DE":
+	{
+		"title": "Leveller",
+		"desiredLevel": "Gewünschtes Level",
+		"levellerActive": "Leveller aktivieren",
+		"currentTask": "Derzeitige Aufgabe",
+		"level": "Level",
+		"waiting": "Warte...",
+		"leveling": "Leveln...",
+		"renaming": "Name wiederherstellen...",
+		"finished": "Fertig!",
+		"banned": "Du bist gebannt und kannst nicht mehr leveln.",
+		"loginNeeded": "Du musst eingeloggt sein um zu leveln.",
+		"authNeeded": "Dein Account muss entweder mit Instagram (empfohlen), Facebook oder Google+ verbunden sein.",
+		"warningTitle": "Achtung!",
+		"warning": "Der Leveller führt nach einer gewissen Zeit zum Autobann. Um einen Autobann zu umgehen, reicht es, sich auszuloggen und neu anzumelden. Der Account ist danach erneut auf Level 1."
+	}
+}

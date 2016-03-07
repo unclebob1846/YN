@@ -1,0 +1,54 @@
+{
+	"de-DE": 
+	{
+		"nobodyLikes": "Niemand mag %1",
+		"minChatLevel": "Level %1 zum Chatten benötigt.",
+		"in": "in",
+		"chatWarning": "Mit großer Macht kommt große Verantwortung, junger Padawan. \nNutze die Macht weise. \nACHTUNG!: Banngefahr.",
+		"tabs": 
+		{
+			"chat": "Chat",
+			"audience": "Zuschauer",
+			"infos": "Streamer-Info"
+		},
+		"chat":
+		{
+			"writeInChat": "In den Chat",
+			"writeInTrending": "In den aktuellen Tag",
+			"writeInTag": "In den Tag"
+		},
+		"stats":
+		{
+			"fans": "Sklaven",
+			"streamer": "Streamer",
+			"age": "Alter",
+			"barsEarned": "Bars verdient",
+			"coins": "Coins",
+			"maxLikes": "Max. erreichte Likes",
+			"country": "Land",
+			"partner": "Partner",
+			"partnerStatus": ["Kein Partner", "Partner", "Anwärter", "Unbekannt"],
+			"level": "Level",
+			"points": "Punkte",
+			"device": "Gerät",
+			"browser": "Browser",
+			"connection": "Verbindung",
+			"osVersion": "Betriebssystem",
+			"provider": "Provider",
+			"stream": "Stream",
+			"streamURL": "RTMP URL",
+			"levelNeeded": "%1% bis zum Level %2",
+			"displayViewers": "Desktop Zuschauer",
+			"mobileViewers": "Mobile Zuschauer",
+			"maxViewers": "Maximale Viewer",
+			"tag": "Tag",
+			"position": "Position",
+			"reconnects": "Neuverbindungen",
+			"featuredTime": "Zeit gefeatured",
+			"giftsValue": "Wert aller Geschenke",
+			"newFans": "Neue Sklaven",
+			"bitrate": "Bitrate",
+			"fps": "FPS"
+		}
+	}
+}

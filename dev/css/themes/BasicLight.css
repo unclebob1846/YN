@@ -1,0 +1,36 @@
+/* identifier: basicLight
+   title: Basic Light
+   description: Standard light theme
+   thumbnail: https://fluffyfishgames.github.io/img/basicDarkTheme.png */
+
+vars
+{
+	siteBackground: #fff;
+	backgroundColor0: #fff;
+	backgroundColor1: #fff;
+	backgroundColor2: #eee;
+	backgroundColor3: #eee;
+	backgroundColor4: #ddd;
+	backgroundColor5: #ddd;
+	primaryTextColor: #222;
+	secondaryTextColor: #555;
+	errorTextColor: #f00;
+	borderColor0: #ccc;
+	borderColor1: #ccc;
+	borderColor2: #aaa;
+	borderColor3: #aaa;
+	submitButtonColor: #fd8;
+	submitButtonBorderColor: #444;
+	confirmButtonColor: #44f;
+	confirmButtonBorderColor: #444;
+	buttonTextColor: #333;
+	iconColor: #222;
+}
+
+#profile #profileBottom .fade a:hover i, #profile #profileBottom .fade a.active i, #profile #profileBottom .fade a:hover , #profile #profileBottom .fade a.active{
+	color: #222 !Important;
+}
+
+#profile #profileBottom .fade a i, #profile #profileBottom .fade a i, #profile #profileBottom .fade a, #profile #profileBottom .fade a{
+	color: #fff !Important;
+}

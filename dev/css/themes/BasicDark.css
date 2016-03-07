@@ -1,0 +1,28 @@
+/* identifier: basicDark
+   title: Basic Dark
+   description: Standard theme
+   thumbnail: https://fluffyfishgames.github.io/img/basicDarkTheme.png */
+
+vars
+{
+	siteBackground: #000;
+	backgroundColor0: #111;
+	backgroundColor1: #222;
+	backgroundColor2: #333;
+	backgroundColor3: #444;
+	backgroundColor4: #555;
+	backgroundColor5: #666;
+	primaryTextColor: #eee;
+	secondaryTextColor: #aaa;
+	errorTextColor: #faa;
+	borderColor0: #111;
+	borderColor1: #333;
+	borderColor2: #555;
+	borderColor3: #777;
+	submitButtonColor: #fa4;
+	submitButtonBorderColor: #aaa;
+	confirmButtonColor: #219;
+	confirmButtonBorderColor: #aaa;
+	buttonTextColor: #fff;
+	iconColor: #eee;
+}

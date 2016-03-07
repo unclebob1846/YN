@@ -1,0 +1,31 @@
+{
+	"de-DE":
+	{
+		"previousBroadcast": 
+		{
+			"backToProfile": "Zurück zum Profil",
+			"rtmpDump": "RTMPDump Befehl anzeigen"
+		},
+		"dashboard":
+		{
+			"post": "Absenden",
+			"remove": "Löschen",
+			"like": "Gefällt mir!",
+			"unlike": "Gefällt mir nicht mehr!",
+			"otherLikes": "Gefällt %1 anderen Personen."
+		},
+		"tabs":
+		{
+			"dashboard": "Pinnwand",
+			"previousBroadcasts": "Vorherige Streams",
+			"fans": "%1 Sklaven",
+			"fansOf": "Von %1 Sklave"
+		},
+		"fan": "Sklave werden",
+		"unfan": "Sklave entfernen",
+		"location": "Ort",
+		"broadcastsCount": "Streams bisher",
+		"dateCreated": "Erstellt am",
+		"toLive": "Zum Livestream"
+	}
+}
